@@ -112,7 +112,7 @@ ul.nav{
 	padding: 0;
 }
 
-ul li:hover .nav{
+ul li: .nav{
 	display: block;
 }
 
