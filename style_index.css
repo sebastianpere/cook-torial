@@ -136,10 +136,6 @@ ul .nav{
 
 	}
 
-	.nav li:hover{
-		transition: 0.5s;
-	}
-
 	div.sub_menu li{
 		justify-content: right;
 	}
