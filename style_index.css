@@ -177,7 +177,9 @@ ul .nav{
 .image-1{
 	float: right;
 	width: 398px;
-	margin: 5px;
+	margin-top: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
 	max-width: 50%;
 }
 
@@ -243,9 +245,5 @@ ul .nav{
 
 	div.sub_menu li{
 		justify-content: right;
-	}
-
-	.navigation ul.show > .contenedor-text{
-		margin-top: 500px;
 	}
 }
