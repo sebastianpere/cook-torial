@@ -43,7 +43,8 @@ body{
 	font-size: 1.2em;
 	border: solid;
 	border-radius: 5px 0px;
-	position: relaitve;
+	position: relative;
+
 }
 
 
@@ -140,6 +141,46 @@ ul .nav{
 		justify-content: right;
 	}
 
+.logo_1{
+	display: inline-flex;
+	position: fixed;
+	border: hidden;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.image{
+	max-width: 50%;
+}
+
+.contenedor-text{
+	display: inline-flex;
+	border: hidden;
+	border-radius: 10px;
+	color: black;
+	position: static;
+	background-color: white;
+	margin-top: 140px;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	align-items: center;
+	justify-content: center;
+}
+
+.info{
+	margin: 15px 10px;
+}
+
+.image-1{
+	float: right;
+	width: 398px;
+	margin: 5px;
+	max-width: 50%;
+}
+
 @media only screen and (max-width: 870px) {
 
 	.tres_lineas{
@@ -155,10 +196,12 @@ ul .nav{
 
 	.navigation ul{
 		display: none;
+		transition: 0.5s;
 	}
 
 	.navigation ul.show {
 		display: block;
+		transition: 0.5s;
 	}
 
 	.navigation{
@@ -201,15 +244,8 @@ ul .nav{
 	div.sub_menu li{
 		justify-content: right;
 	}
-}
 
-.logo_1{
-	display: inline-flex;
-	position: fixed;
-	border: hidden;
-	width: 100%;
-	height: 100%;
-	align-items: center;
-	justify-content: center;
-
+	.navigation ul.show > .contenedor-text{
+		margin-top: 500px;
+	}
 }
